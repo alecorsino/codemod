@@ -1,0 +1,19 @@
+{
+  "name": "codemod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mod": "babel  src -d out --extensions '.ts,.tsx'"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.42",
+    "@babel/core": "7.0.0-beta.42",
+    "@babel/preset-env": "7.0.0-beta.42",
+    "@babel/preset-typescript": "7.0.0-beta.42",
+    "babel-plugin-module-resolver": "^3.1.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

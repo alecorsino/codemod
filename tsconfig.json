@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "listEmittedFiles":true,
+    "allowSyntheticDefaultImports": true,
+    "module": "es2015",
+    "outDir": "./out",
+    "rootDir": "./src",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "out/*"]
+}
