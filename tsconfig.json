@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "listEmittedFiles":true,
+    "listEmittedFiles":false,
     "allowSyntheticDefaultImports": true,
+    "target": "es6",
     "module": "es2015",
-    "outDir": "./out",
-    "rootDir": "./src",
+    "outDir": "./plugins/tests/modified",
+    "rootDir": "./plugins/tests",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "pretty": true,
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "noEmit": true,
+    
+    
   },
   "exclude": ["node_modules", "**/node_modules/*", "out/*"]
 }

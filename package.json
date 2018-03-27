@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "mod": "babel  src -d out --extensions '.ts,.tsx'"
+    "mod": "babel  src -d out --extensions '.ts,.tsx'",
+    "codemod:prod": "babel C:/dev/projects/gocator/Trunk/Gocator/GoWeb/kJs/javascript/src/kjs -d babeledKjs --extensions '.js,.ts,.tsx'",
+    "codemod": "babel plugins/tests -d plugins/tests/modified --extensions '.rs,.ts,.js,.tsx'"
   },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.42",
